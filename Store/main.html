@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel ="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    </head>
+<body>
+    <h1 class ="header" id = "header">
+        Welcome (Insert Customer Name Here) to the Evreything Store!
+        <br>
+    </h1>
+    <div class="cart">
+        <h2>Shopping Cart</h2>
+        <p id="cartItems">No items in cart</p>
+        <p id="totalPrice">Total: $0.00</p>
+        <button id="checkoutButton">Checkout</button>
+    </div>    
+    <div class = "search">
+        <input type="text" id="searchInput" placeholder="Search for products...">
+        <button id="searchButton">Search</button>
+        <label for="category">Sort by: Category</label>
+        <select id="category">
+            <option value="all">All</option>
+            <optgroup label="Food"></optgroup>
+                <option value="dairy">Dairy</option>
+                <option value="meat">Meat</option>
+                <option value="snacks">Snacks</option>
+                <option value="produce">Produce</option>
+            <optgroup label="Electronics"></optgroup>
+                <option value="phones">Phones</option>
+                <option value="computers">Computers</option>
+                <option value="accessories">Accessories</option>
+            <optgroup label="Clothing"></optgroup>
+                <option value = "shirts">Shirts</option>
+                <option value="pants">Pants</option>
+        </select>
+    </div>
+    <div class = shelf>
+        <div class="product-card">
+            <h3 class="product-name">Desk Fan</h3>
+            <img src = "product-images/fan.png" alt = "fan" class = "product-image">
+            <p class="product-description">This is a description of the product.</p>
+            <p class="product-price">$19.99</p>
+            <div class =" product-buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <input type="number" class="quantity" value="1" min="1">
+                <button clas ="favourite">❤️</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <h3 class="product-name">Red Apples</h3>
+            <img src = "product-images/redApple.png" alt = "redApple" class = "product-image">
+            <p class="product-description">This is a description of the product.</p>
+            <p class="product-price">$0.99</p>
+            <div class =" product-buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <input type="number" class="quantity" value="1" min="1">
+                <button clas ="favourite">❤️</button>
+            </div>
+        </div>
+    </div>
+    <div class = shelf>
+        <div class="product-card">
+            <h3 class="product-name">Chocolate</h3>
+            <img src = "product-images/chocolate.png" alt = "chocolate" class = "product-image">
+            <p class="product-description">This is a description of the product.</p>
+            <p class="product-price">$2.99</p>
+            <div class =" product-buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <input type="number" class="quantity" value="1" min="1">
+                <button clas ="favourite">❤️</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <h3 class="product-name">Milk</h3>
+            <img src = "product-images/milk.png" alt = "milk" class = "product-image">
+            <p class="product-description">This is a description of the product.</p>
+            <p class="product-price">$4.99</p>
+            <div class =" product-buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <input type="number" class="quantity" value="1" min="1">
+                <button clas ="favourite">❤️</button>
+            </div>
+        </div>
+    </div>
+    <div class = shelf>
+        <div class="product-card">
+            <h3 class="product-name">Mini Fridge</h3>
+            <img src = "product-images/fridge.png" alt = "fridge" class = "product-image">
+            <p class="product-description">This is a description of the product.</p>
+            <p class="product-price">$209.99</p>
+            <div class =" product-buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <input type="number" class="quantity" value="1" min="1">
+                <button clas ="favourite">❤️</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <h3 class="product-name">Running Shoes</h3>
+            <img src = "product-images/shoes.png" alt = "shoes" class = "product-image">
+            <p class="product-description">This is a description of the product.</p>
+            <p class="product-price">$24.99</p>
+            <div class =" product-buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <input type="number" class="quantity" value="1" min="1">
+                <button clas ="favourite">❤️</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
